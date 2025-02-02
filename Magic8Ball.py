@@ -10,7 +10,7 @@ def main():
   #Create a list of your responses.
   print("Magic 8 Ball")
   #Prompt the user for their question.
-  answers = ["thing 1", "thing 2"]
+  answers = ["your ex has the answer", "idubitoubly", "you do NOT want to know", "it is certain", "i know but i'm not telling", "your parents taught you better", "yes", "no", "ask again later", "i actually don't know that one","maybe" ]
   #Answer question randomly with one of the options from your earlier list.
   length = len(answers)
   r = random.random() * length
